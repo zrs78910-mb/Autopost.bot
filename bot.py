@@ -13,7 +13,7 @@ TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 
 # --- Gist में फाइलों के नाम ---
 POST_FILENAME = "posts.txt"      # पोस्ट्स के लिए
-CHANNELS_FILENAME = "admin_channels.json" # चैनल लिस्ट के लिए
+CHANNELS_FILE = "/var/data/admin_channels.json" # चैनल लिस्ट के लिए
 
 # ========= Gist हैंडलिंग फंक्शन =========
 def get_gist_files():
